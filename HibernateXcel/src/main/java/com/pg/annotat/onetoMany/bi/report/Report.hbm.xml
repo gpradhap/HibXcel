@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.semika.autoac.entities.Report" table="REPORT">
+	<id name="id" type="int" column="id">
+		<generator class="native" />
+	</id>
+	<property name="name">
+		<column name="NAME" />
+	</property>
+	<set name="reportSummaryList" table="REPORT_SUMMARY" cascade="all"
+		inverse="true">
+		<key column="RPT_ID" not-null="true"></key>
+		<one-to-many class="com.semika.autoac.entities.ReportSummary" />
+	</set>
+</class>
+</hibernate-mapping

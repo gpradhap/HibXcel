@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RecordList>
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="attrLookupGroup">
+        <attrLookupGrpID>1</attrLookupGrpID>
+        <groupName>EMP_PERS</groupName>
+    </record>
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="attrLookupGroup">
+        <attrLookupGrpID>2</attrLookupGrpID>
+        <groupName>EMP_DOC</groupName>
+    </record>
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="attrLookupGroup">
+        <attrLookupGrpID>3</attrLookupGrpID>
+        <groupName>EMP_DOC_ATTR</groupName>
+    </record>
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="attrLookupGroup">
+        <attrLookupGrpID>4</attrLookupGrpID>
+        <groupName>EMP_PERS_ATTR</groupName>
+    </record>
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="attrLookupGroup">
+        <attrLookupGrpID>5</attrLookupGrpID>
+        <groupName>EMP_PERS_DTLS</groupName>
+    </record>
+</RecordList>

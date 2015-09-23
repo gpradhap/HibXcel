@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="com.semika.autoac.entities.ReportSummary" table="REPORT_SUMMARY">
+	<composite-id name="id"
+		class="com.semika.autoac.entities.ReportSummaryId">
+		<key-property name="id" column="ID"></key-property>
+		<key-many-to-one name="report"
+			class="com.semika.autoac.entities.Report" column="RPT_ID"</key-many-to-one>
+	</composite-id>
+	<property name="name">
+		<column name="NAME" />
+	</property>
+</class>
+</hibernate-mapping>

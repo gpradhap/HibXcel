@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AttrLookupGroupList>
+    <AttrLookupGroup>
+        <attrLookupGrpID>1</attrLookupGrpID>
+        <groupName>EMP_PERS</groupName>
+    </AttrLookupGroup>
+    <AttrLookupGroup>
+        <attrLookupGrpID>2</attrLookupGrpID>
+        <groupName>EMP_DOC</groupName>
+    </AttrLookupGroup>
+    <AttrLookupGroup>
+        <attrLookupGrpID>3</attrLookupGrpID>
+        <groupName>EMP_DOC_ATTR</groupName>
+    </AttrLookupGroup>
+    <AttrLookupGroup>
+        <attrLookupGrpID>4</attrLookupGrpID>
+        <groupName>EMP_PERS_ATTR</groupName>
+    </AttrLookupGroup>
+    <AttrLookupGroup>
+        <attrLookupGrpID>5</attrLookupGrpID>
+        <groupName>EMP_PERS_DTLS</groupName>
+    </AttrLookupGroup>
+</AttrLookupGroupList>

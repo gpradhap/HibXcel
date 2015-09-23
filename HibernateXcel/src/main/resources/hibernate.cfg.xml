@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:1433/hibdb</property>
+		<property name="hibernate.connection.username">pradhap</property>
+		<property name="hibernate.connection.password">abc123</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="show_sql">true</property>
+		<property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property><!-- session context required to get currentSession and avoid duplicate session creation -->
+		
+		<!-- <property name="mappingLocations">**/*.hbm.xml</property> -->
+		<!-- <mapping resource="com/pg/stock/Stock.hbm.xml"></mapping> -->
+		<!-- <mapping resource="**/*.hbm.xml"></mapping> -->
+		
+		<!-- <mapping class="com.pg.annotat.stock.bo.Stock" />
+		<mapping class="com.pg.annotat.stock.bo.StockDailyRecord" /> -->
+		
+		<!-- <mapping class="com.pg.annotat.inherit.onetab.bo.Person" />
+		<mapping class="com.pg.annotat.inherit.onetab.bo.Employee" />
+		<mapping class="com.pg.annotat.inherit.onetab.bo.Owner" /> -->
+		
+		<!-- <mapping class="com.pg.annotat.onetoone.product.bo.Product" />
+		<mapping class="com.pg.annotat.onetoone.product.bo.ProductExtn" /> -->
+
+		<!-- <mapping class="com.pg.annotat.onetoone.uni.contact.bo.Contact" />
+		<mapping class="com.pg.annotat.onetoone.uni.contact.bo.Passport" /> -->
+				
+		<!-- <mapping class="com.pg.annotat.onetoone.shareprim.customer.bo.Customer"/>
+		<mapping class="com.pg.annotat.onetoone.shareprim.customer.bo.CustomerDetails"/> -->
+		
+		<!-- <mapping class="com.pg.annotat.onetoMany.depart.bo.DepartStore"/>
+		<mapping class="com.pg.annotat.onetoMany.depart.bo.Department"/> -->
+
+		<!-- <mapping class="com.pg.annotat.manytomany.Stock"/>		
+		<mapping class="com.pg.annotat.manytomany.Category"/> -->
+
+		<mapping class="com.pg.annotat.manytomany.bi.extracolumn.Stock"/>		
+		<mapping class="com.pg.annotat.manytomany.bi.extracolumn.Category"/>
+		<mapping class="com.pg.annotat.manytomany.bi.extracolumn.StockCategoryExtn"/>
+		
+		<!-- <mapping class="com.gs.emp.bo.AttrLookupGroup"/>
+		<mapping class="com.gs.emp.bo.AttributeLookup"/> -->
+
+		<mapping class="com.gs.emp.bo.EmployeeAttributesBo"/>
+		<mapping class="com.gs.emp.bo.EmployeeBo"/>
+		<mapping class="com.gs.doc.bo.DocumentBo"/>
+		<mapping class="com.gs.doc.bo.DocumentAttributesBo"/>
+		<mapping class="com.gs.common.bo.AttrLookupGroupBo"/>
+		<mapping class="com.gs.common.bo.AttributeLookupBo"/>
+				
+	</session-factory>
+</hibernate-configuration>

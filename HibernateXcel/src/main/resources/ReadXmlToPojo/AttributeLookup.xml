@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RecordList>
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="attributeLookup">
+        <attrLookupID>1</attrLookupID>
+        <attribute>ssn</attribute>
+        <attrLookupGroup>
+            <attrLookupGrpID>2</attrLookupGrpID>
+            <groupName>EMP_DOC</groupName>
+        </attrLookupGroup>
+    </record>
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="attributeLookup">
+        <attrLookupID>2</attrLookupID>
+        <attribute>PP</attribute>
+        <attrLookupGroup>
+            <attrLookupGrpID>2</attrLookupGrpID>
+            <groupName>EMP_DOC</groupName>
+        </attrLookupGroup>
+    </record> 
+    <record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="attributeLookup">
+        <attrLookupID>3</attrLookupID>
+        <attribute>VISA</attribute>
+        <attrLookupGroup>
+            <attrLookupGrpID>2</attrLookupGrpID>
+            <groupName>EMP_DOC</groupName>
+        </attrLookupGroup>
+    </record>          
+</RecordList>

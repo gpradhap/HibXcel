@@ -15,7 +15,7 @@ import javax.persistence.Table;
 import org.hibernate.annotations.Cascade;
 
 @Entity
-@Table(name = "stock", catalog = "hibdb")
+@Table(name = "stock", catalog = "gsportaldb")
 public class Stock implements Serializable {
 
 	@Id

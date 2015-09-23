@@ -3,7 +3,7 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="com.pg.stock.bo.Stock" table="stock" catalog="hibdb">
+	<class name="com.pg.stock.bo.Stock" table="stock" catalog="gsportaldb">
 		<id name="stockId" type="java.lang.Integer">
 			<column name="STOCK_ID" />
 			<generator class="identity" />

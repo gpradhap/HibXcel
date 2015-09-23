@@ -33,7 +33,7 @@ public class Stock  extends BaseAbstractBo implements Serializable {
 	private String stockName;
 	
 	@ManyToMany(fetch=FetchType.EAGER,cascade=CascadeType.ALL)
-	@JoinTable(name="stock_category",catalog="hibdb",joinColumns={@JoinColumn(name="stock_id")},inverseJoinColumns={@JoinColumn(name="cat_id")})
+	@JoinTable(name="stock_category",catalog="gsportaldb",joinColumns={@JoinColumn(name="stock_id")},inverseJoinColumns={@JoinColumn(name="cat_id")})
 	private List<Category> categories;
 
 	public Stock() { }

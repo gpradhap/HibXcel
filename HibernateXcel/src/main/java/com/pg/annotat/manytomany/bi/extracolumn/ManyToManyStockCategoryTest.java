@@ -19,8 +19,8 @@ public class ManyToManyStockCategoryTest {
 	public static void main(String... str) {
 
 		//createStock();
-		//retrieveCategory();
-		updateStock();
+		retrieveCategory();
+		//updateStock();
 		
 
 	}
@@ -101,10 +101,10 @@ public class ManyToManyStockCategoryTest {
 		session.beginTransaction();
 		
 		Category category = new Category();
-		category.setCategoryDesc("category1");
+		//category.setCategoryDesc("category1");
 		
 		Criteria crit = session.createCriteria(Category.class);
-		crit.add(Restrictions.eq("categoryDesc", "category1"));
+		//crit.add(Restrictions.eq("categoryDesc", "category1"));
 		//crit.list();
 		List<Category> categoryLst = crit.list();
 		//List<Category> categoryLst =null;

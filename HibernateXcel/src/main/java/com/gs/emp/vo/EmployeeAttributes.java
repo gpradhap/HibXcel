@@ -44,5 +44,13 @@ public class EmployeeAttributes extends BaseAbstractVo {
 		this.attributeLookup = attributeLookup;
 	}
 
+	public String getAttributeName() {
+		return attributeName;
+	}
+
+	public void setAttributeName(String attributeName) {
+		this.attributeName = attributeName;
+	}
+
 
 }

@@ -95,7 +95,7 @@ public class EmployeeBo extends BaseAbstractBo implements Serializable {
 		return documents;
 	}
 
-	@OneToMany(fetch=FetchType.LAZY,cascade=CascadeType.ALL,mappedBy="employeeAttributesBoID.employee")
+	@OneToMany(fetch=FetchType.LAZY,cascade=javax.persistence.CascadeType.ALL,mappedBy="employeeAttributesBoID.employee")
 	//@Cascade(value={CascadeType.ALL})
 	public Set<EmployeeAttributesBo> getEmpAttributeSet() {
 		return empAttributeSet;

@@ -114,4 +114,8 @@ public class EmployeeAttributesBo extends BaseAbstractBo implements Serializable
 		return true;
 	}
 
+	public String getAttributeName() {
+		return attributeName;
+	}
+
 }

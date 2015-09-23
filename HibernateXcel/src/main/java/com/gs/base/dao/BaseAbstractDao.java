@@ -544,7 +544,7 @@ public abstract class BaseAbstractDao<T extends BaseAbstractBo> {
 		if(null == clazz || null == id || null == session){
 			return null;
 		}
-		
+		T obj;
 		try{
 			obj = (T)session.get(clazz,id);
 		}catch(Exception e){

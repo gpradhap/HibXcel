@@ -170,8 +170,7 @@ public class AttributeLookupServiceTester {
 
 		attributeLookup.setAttribute("EMP_DOC_TEMP_Dup");
 		attributeLookup.setUpdateBy("EMP_DOC_TEMP_Dup");
-		attributeLookup.setUserName("EMP_DOC_TEMP_Dup");
-
+		
 		Set<AttributeLookup> attributeLookupList = new HashSet<AttributeLookup>();
 		attributeLookupList.add(attributeLookup);
 

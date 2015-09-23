@@ -55,7 +55,7 @@ public class DocumentServiceTester {
 		document.setUpdateDate(Calendar.getInstance().getTime());
 
 		Employee employee = new Employee();
-		employee.setEmployeeId(2L);
+		employee.setEmployeeId(2);
 		
 		List<Document> documentList = new ArrayList<Document>();
 		documentList.add(document);

@@ -6,7 +6,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.pg</groupId>
-	<artifactId>HibernateXcel</artifactId>
+	<artifactId>X_HibernateXcel</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 

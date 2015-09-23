@@ -28,7 +28,6 @@ public class AttributeMapper<T extends Object> implements Mapper {
 	
 	@Override
 	public Object getMappedObject() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
